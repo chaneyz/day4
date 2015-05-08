@@ -39,7 +39,7 @@ body {
 	margin-top: 60px;
 }
 
-.top-break-bar {
+.top-tier-bar {
 	height: 50px;
 	background-color: #FFFFFF;
 }
@@ -153,7 +153,233 @@ body {
 	}
 }
 
+.top-break-bar {
+	height: 50px;
+	background-color: #FFFFFF;
+}
 
+.small-business-ad {
+	height: 195px;
+	background: #539153;
+	padding: 15px;
+	
+	.small-business-ad-copy {
+		color: $top-hero-ad-copy-color;
+		text-align: center;
+		font-family: arial;
+	
+		.small-business-ad-copy-p1 {
+			word-spacing: 5px;
+		}
+
+		.small-business-ad-copy-p2 {
+			height: 110px;
+			font-size: 110px;
+			margin: 0 auto;
+		}
+	}	
+}
+
+.small-businessl-tier {
+	color: $tier-features-copy-color;
+	height: 275px;
+	background: #F7F7F7;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 16px;
+	font-family: sans-serif;
+
+	.small-business-feature1 {
+		border: 1px solid #E8E8E8;
+		border-top: 0px;
+		margin: 0;
+		height: 45px;
+		text-align: center;
+		line-height: 45px;
+
+	}
+	.small-business-feature2 {
+		border: 1px solid #E8E8E8;
+		border-top: 0px;
+		margin: 0;
+		height: 45px;
+		text-align: center;
+		line-height: 45px;
+	}
+	.small-business-feature3 {
+		border: 1px solid #E8E8E8;
+		border-top: 0px;
+		margin: 0;
+		height: 45px;
+		text-align: center;
+		line-height: 45px;
+
+	}
+	.small-business-feature4 {
+		border: 1px solid #E8E8E8;
+		border-top: 0px;
+		margin: 0;
+		height: 45px;
+		text-align: center;
+		line-height: 45px;
+
+	}
+	.small-business-feature5 {
+		border: 1px solid #E8E8E8;
+		border-top: 0px;
+		margin: 0;
+		height: 45px;
+		text-align: center;
+		line-height: 45px;
+
+	}
+	.small-business-feature6 {
+		border: 1px solid #E8E8E8;
+		border-top: 0px;
+		margin: 0;
+		height: 45px;
+		text-align: center;
+		line-height: 45px;
+	}
+
+}
+
+.small-business-tier-choose {
+	height: 11px;
+	background: #FFFFFF;
+	border: 1px solid #E8E8E8;
+	padding-top: 24px;
+	padding-bottom: 48px;
+	
+	.small-business-choose-button {
+		height: 25px;
+		width: 100px;
+		text-align: center;
+		border-radius: 20px;
+		border: 2px solid #E8E8E8;
+		margin: 0 auto;
+		font-size: 18px;
+		font-family: sans-serif;
+		font-weight: bold;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		margin-bottom: 10px;
+	}
+}
+
+.top-tier-bar {
+	height: 50px;
+	background-color: #FFFFFF;
+}
+
+.enterprise-ad {
+	height: 195px;
+	background: #539153;
+	padding: 15px;
+	
+	.enterprise-ad-copy {
+		color: $top-hero-ad-copy-color;
+		text-align: center;
+		font-family: arial;
+	
+		.enterprise-ad-copy-p1 {
+			word-spacing: 5px;
+		}
+
+		.enterprise-ad-copy-p2 {
+			height: 110px;
+			font-size: 110px;
+			margin: 0 auto;
+		}
+	}	
+}
+
+.enterprise-tier {
+	color: $tier-features-copy-color;
+	height: 275px;
+	background: #F7F7F7;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 16px;
+	font-family: sans-serif;
+
+	.enterprise-feature1 {
+		border: 1px solid #E8E8E8;
+		border-top: 0px;
+		margin: 0;
+		height: 45px;
+		text-align: center;
+		line-height: 45px;
+
+	}
+	.enterprise-feature2 {
+		border: 1px solid #E8E8E8;
+		border-top: 0px;
+		margin: 0;
+		height: 45px;
+		text-align: center;
+		line-height: 45px;
+	}
+	.enterprise-feature3 {
+		border: 1px solid #E8E8E8;
+		border-top: 0px;
+		margin: 0;
+		height: 45px;
+		text-align: center;
+		line-height: 45px;
+
+	}
+	.enterprise-feature4 {
+		border: 1px solid #E8E8E8;
+		border-top: 0px;
+		margin: 0;
+		height: 45px;
+		text-align: center;
+		line-height: 45px;
+
+	}
+	.enterprise-feature5 {
+		border: 1px solid #E8E8E8;
+		border-top: 0px;
+		margin: 0;
+		height: 45px;
+		text-align: center;
+		line-height: 45px;
+
+	}
+	.enterprise-feature6 {
+		border: 1px solid #E8E8E8;
+		border-top: 0px;
+		margin: 0;
+		height: 45px;
+		text-align: center;
+		line-height: 45px;
+	}
+
+}
+
+.enterprise-tier-choose {
+	height: 11px;
+	background: #FFFFFF;
+	border: 1px solid #E8E8E8;
+	padding-top: 24px;
+	padding-bottom: 48px;
+	
+	.enterprise-choose-button {
+		height: 25px;
+		width: 100px;
+		text-align: center;
+		border-radius: 20px;
+		border: 2px solid #E8E8E8;
+		margin: 0 auto;
+		font-size: 18px;
+		font-family: sans-serif;
+		font-weight: bold;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		margin-bottom: 10px;
+	}
+}
 
 
 

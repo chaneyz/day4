@@ -27,7 +27,7 @@ body {
   color: white;
   margin-top: 60px; }
 
-.top-break-bar {
+.top-tier-bar {
   height: 50px;
   background-color: #FFFFFF; }
 
@@ -104,6 +104,186 @@ body {
   padding-top: 24px;
   padding-bottom: 48px; }
   .personal-tier-choose .personal-choose-button {
+    height: 25px;
+    width: 100px;
+    text-align: center;
+    border-radius: 20px;
+    border: 2px solid #E8E8E8;
+    margin: 0 auto;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 10px; }
+
+.top-break-bar {
+  height: 50px;
+  background-color: #FFFFFF; }
+
+.small-business-ad {
+  height: 195px;
+  background: #539153;
+  padding: 15px; }
+  .small-business-ad .small-business-ad-copy {
+    color: #FEFEFE;
+    text-align: center;
+    font-family: arial; }
+    .small-business-ad .small-business-ad-copy .small-business-ad-copy-p1 {
+      word-spacing: 5px; }
+    .small-business-ad .small-business-ad-copy .small-business-ad-copy-p2 {
+      height: 110px;
+      font-size: 110px;
+      margin: 0 auto; }
+
+.small-businessl-tier {
+  color: #3D4E54;
+  height: 275px;
+  background: #F7F7F7;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 16px;
+  font-family: sans-serif; }
+  .small-businessl-tier .small-business-feature1 {
+    border: 1px solid #E8E8E8;
+    border-top: 0px;
+    margin: 0;
+    height: 45px;
+    text-align: center;
+    line-height: 45px; }
+  .small-businessl-tier .small-business-feature2 {
+    border: 1px solid #E8E8E8;
+    border-top: 0px;
+    margin: 0;
+    height: 45px;
+    text-align: center;
+    line-height: 45px; }
+  .small-businessl-tier .small-business-feature3 {
+    border: 1px solid #E8E8E8;
+    border-top: 0px;
+    margin: 0;
+    height: 45px;
+    text-align: center;
+    line-height: 45px; }
+  .small-businessl-tier .small-business-feature4 {
+    border: 1px solid #E8E8E8;
+    border-top: 0px;
+    margin: 0;
+    height: 45px;
+    text-align: center;
+    line-height: 45px; }
+  .small-businessl-tier .small-business-feature5 {
+    border: 1px solid #E8E8E8;
+    border-top: 0px;
+    margin: 0;
+    height: 45px;
+    text-align: center;
+    line-height: 45px; }
+  .small-businessl-tier .small-business-feature6 {
+    border: 1px solid #E8E8E8;
+    border-top: 0px;
+    margin: 0;
+    height: 45px;
+    text-align: center;
+    line-height: 45px; }
+
+.small-business-tier-choose {
+  height: 11px;
+  background: #FFFFFF;
+  border: 1px solid #E8E8E8;
+  padding-top: 24px;
+  padding-bottom: 48px; }
+  .small-business-tier-choose .small-business-choose-button {
+    height: 25px;
+    width: 100px;
+    text-align: center;
+    border-radius: 20px;
+    border: 2px solid #E8E8E8;
+    margin: 0 auto;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 10px; }
+
+.top-tier-bar {
+  height: 50px;
+  background-color: #FFFFFF; }
+
+.enterprise-ad {
+  height: 195px;
+  background: #539153;
+  padding: 15px; }
+  .enterprise-ad .enterprise-ad-copy {
+    color: #FEFEFE;
+    text-align: center;
+    font-family: arial; }
+    .enterprise-ad .enterprise-ad-copy .enterprise-ad-copy-p1 {
+      word-spacing: 5px; }
+    .enterprise-ad .enterprise-ad-copy .enterprise-ad-copy-p2 {
+      height: 110px;
+      font-size: 110px;
+      margin: 0 auto; }
+
+.enterprise-tier {
+  color: #3D4E54;
+  height: 275px;
+  background: #F7F7F7;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 16px;
+  font-family: sans-serif; }
+  .enterprise-tier .enterprise-feature1 {
+    border: 1px solid #E8E8E8;
+    border-top: 0px;
+    margin: 0;
+    height: 45px;
+    text-align: center;
+    line-height: 45px; }
+  .enterprise-tier .enterprise-feature2 {
+    border: 1px solid #E8E8E8;
+    border-top: 0px;
+    margin: 0;
+    height: 45px;
+    text-align: center;
+    line-height: 45px; }
+  .enterprise-tier .enterprise-feature3 {
+    border: 1px solid #E8E8E8;
+    border-top: 0px;
+    margin: 0;
+    height: 45px;
+    text-align: center;
+    line-height: 45px; }
+  .enterprise-tier .enterprise-feature4 {
+    border: 1px solid #E8E8E8;
+    border-top: 0px;
+    margin: 0;
+    height: 45px;
+    text-align: center;
+    line-height: 45px; }
+  .enterprise-tier .enterprise-feature5 {
+    border: 1px solid #E8E8E8;
+    border-top: 0px;
+    margin: 0;
+    height: 45px;
+    text-align: center;
+    line-height: 45px; }
+  .enterprise-tier .enterprise-feature6 {
+    border: 1px solid #E8E8E8;
+    border-top: 0px;
+    margin: 0;
+    height: 45px;
+    text-align: center;
+    line-height: 45px; }
+
+.enterprise-tier-choose {
+  height: 11px;
+  background: #FFFFFF;
+  border: 1px solid #E8E8E8;
+  padding-top: 24px;
+  padding-bottom: 48px; }
+  .enterprise-tier-choose .enterprise-choose-button {
     height: 25px;
     width: 100px;
     text-align: center;
