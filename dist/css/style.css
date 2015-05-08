@@ -124,10 +124,6 @@ body {
     padding-bottom: 5px;
     margin-bottom: 10px; }
 
-.top-break-bar {
-  height: 50px;
-  background-color: #FFFFFF; }
-
 .small-business-ad {
   height: 189px;
   background: #2C4985;
@@ -218,10 +214,6 @@ body {
     padding-top: 5px;
     padding-bottom: 5px;
     margin-bottom: 10px; }
-
-.top-tier-bar {
-  height: 50px;
-  background-color: #FFFFFF; }
 
 .enterprise-ad {
   height: 189px;
@@ -347,37 +339,36 @@ body {
     font-size: 48px;
     line-height: 120%; } }
 @media (min-width: 767px) {
+  .personal-pricing {
+    display: inline-block;
+    width: 33.3%; }
+
   .personal-ad {
-    width: 210px;
     margin: 0; }
 
   .personal-tier {
-    width: 240px;
     margin: 0; }
 
-  .personal-tier-choose {
-    width: 238px; }
+  .sb-pricing {
+    display: inline-block;
+    margin-left: 15px;
+    width: 33.3%; }
 
   .small-business-ad {
-    width: 210px;
     margin: 0; }
 
   .small-business-tier {
-    width: 240px;
     margin: 0; }
 
-  .small-business-tier-choose {
-    width: 238px; }
+  .enterprise-pricing {
+    display: inline-block;
+    margin-left: 15px;
+    width: 33.3%; }
 
   .enterprise-ad {
-    width: 210px;
     margin: 0; }
 
   .enterprise-tier {
-    width: 240px;
-    margin: 0; }
-
-  .enterprise-tier-choose {
-    width: 238px; } }
+    margin: 0; } }
 
 /*# sourceMappingURL=style.css.map */

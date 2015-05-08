@@ -167,9 +167,7 @@ body {
 	}
 }
 
-.top-break-bar {
-	height: 50px;
-	background-color: #FFFFFF;
+.sb-pricing {
 }
 
 .small-business-ad {
@@ -288,9 +286,7 @@ body {
 	}
 }
 
-.top-tier-bar {
-	height: 50px;
-	background-color: #FFFFFF;
+.enterprise-pricing {
 }
 
 .enterprise-ad {
@@ -460,47 +456,50 @@ body {
 }
 
 @media (min-width: 767px) {
+	// .pricing-tiers {
+	// 	height: 750px;
+	// }
+
+	.personal-pricing {
+		display: inline-block;
+		width: 33.3%;
+	}
+
 	.personal-ad {
-		width: 210px;
 		margin: 0;	
 	}
 
 	.personal-tier {
-		width: 240px;
 		margin: 0;
 	}
 
-	.personal-tier-choose {
-		width: 238px;
 
+	.sb-pricing {
+		display: inline-block;
+		margin-left: 15px;
+		width: 33.3%;
 	}
 
 	.small-business-ad {
-		width: 210px;
 		margin: 0;	
 	}
 
 	.small-business-tier {
-		width: 240px;
 		margin: 0;
 	}
 
-	.small-business-tier-choose {
-		width: 238px;
+	.enterprise-pricing {
+		display: inline-block;
+		margin-left: 15px;
+		width: 33.3%;
 	}
 
 	.enterprise-ad {
-		width: 210px;
 		margin: 0;	
 	}
 
 	.enterprise-tier {
-		width: 240px;
 		margin: 0;
-	}
-
-	.enterprise-tier-choose {
-		width: 238px;
 	}
 }
 
@@ -625,7 +624,6 @@ body {
 // 	height: 50px;
 // 	background-color: #FFFFFF;
 // }
-
 
 
 
