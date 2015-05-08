@@ -40,7 +40,7 @@ body {
     text-align: center;
     font-family: arial; }
     .personal-ad .personal-ad-copy .personal-ad-copy-p1 {
-      word-spacing: 5px; }
+      letter-spacing: 3px; }
     .personal-ad .personal-ad-copy .personal-ad-copy-p2 {
       height: 110px;
       font-size: 110px;
@@ -130,13 +130,13 @@ body {
     text-align: center;
     font-family: arial; }
     .small-business-ad .small-business-ad-copy .small-business-ad-copy-p1 {
-      word-spacing: 5px; }
+      letter-spacing: 3px; }
     .small-business-ad .small-business-ad-copy .small-business-ad-copy-p2 {
       height: 110px;
       font-size: 110px;
       margin: 0 auto; }
 
-.small-businessl-tier {
+.small-business-tier {
   color: #3D4E54;
   height: 275px;
   background: #F7F7F7;
@@ -144,42 +144,42 @@ body {
   margin: 0 auto;
   font-size: 16px;
   font-family: sans-serif; }
-  .small-businessl-tier .small-business-feature1 {
+  .small-business-tier .small-business-feature1 {
     border: 1px solid #E8E8E8;
     border-top: 0px;
     margin: 0;
     height: 45px;
     text-align: center;
     line-height: 45px; }
-  .small-businessl-tier .small-business-feature2 {
+  .small-business-tier .small-business-feature2 {
     border: 1px solid #E8E8E8;
     border-top: 0px;
     margin: 0;
     height: 45px;
     text-align: center;
     line-height: 45px; }
-  .small-businessl-tier .small-business-feature3 {
+  .small-business-tier .small-business-feature3 {
     border: 1px solid #E8E8E8;
     border-top: 0px;
     margin: 0;
     height: 45px;
     text-align: center;
     line-height: 45px; }
-  .small-businessl-tier .small-business-feature4 {
+  .small-business-tier .small-business-feature4 {
     border: 1px solid #E8E8E8;
     border-top: 0px;
     margin: 0;
     height: 45px;
     text-align: center;
     line-height: 45px; }
-  .small-businessl-tier .small-business-feature5 {
+  .small-business-tier .small-business-feature5 {
     border: 1px solid #E8E8E8;
     border-top: 0px;
     margin: 0;
     height: 45px;
     text-align: center;
     line-height: 45px; }
-  .small-businessl-tier .small-business-feature6 {
+  .small-business-tier .small-business-feature6 {
     border: 1px solid #E8E8E8;
     border-top: 0px;
     margin: 0;
@@ -220,7 +220,7 @@ body {
     text-align: center;
     font-family: arial; }
     .enterprise-ad .enterprise-ad-copy .enterprise-ad-copy-p1 {
-      word-spacing: 5px; }
+      letter-spacing: 3px; }
     .enterprise-ad .enterprise-ad-copy .enterprise-ad-copy-p2 {
       height: 110px;
       font-size: 110px;
@@ -296,5 +296,28 @@ body {
     padding-top: 5px;
     padding-bottom: 5px;
     margin-bottom: 10px; }
+
+.info-parent {
+  height: 1280px;
+  background: #FFFFFF;
+  font-family: Helvetica; }
+  .info-parent .info {
+    height: 300px;
+    padding: 35px;
+    text-align: left; }
+    .info-parent .info h3 {
+      display: inline-block;
+      letter-spacing: 5px; }
+    .info-parent .info p {
+      line-height: 125%; }
+
+.footer-body {
+  height: 70px;
+  background: black;
+  text-align: center;
+  font-family: arial;
+  color: #8A8A8A;
+  font-size: 17px;
+  padding: 13px; }
 
 /*# sourceMappingURL=style.css.map */

@@ -55,7 +55,7 @@ body {
 		font-family: arial;
 	
 		.personal-ad-copy-p1 {
-			word-spacing: 5px;
+			letter-spacing: 3px;
 		}
 
 		.personal-ad-copy-p2 {
@@ -169,7 +169,7 @@ body {
 		font-family: arial;
 	
 		.small-business-ad-copy-p1 {
-			word-spacing: 5px;
+			letter-spacing: 3px;
 		}
 
 		.small-business-ad-copy-p2 {
@@ -180,7 +180,7 @@ body {
 	}	
 }
 
-.small-businessl-tier {
+.small-business-tier {
 	color: $tier-features-copy-color;
 	height: 275px;
 	background: #F7F7F7;
@@ -283,7 +283,7 @@ body {
 		font-family: arial;
 	
 		.enterprise-ad-copy-p1 {
-			word-spacing: 5px;
+			letter-spacing: 3px;
 		}
 
 		.enterprise-ad-copy-p2 {
@@ -381,6 +381,40 @@ body {
 	}
 }
 
+.info-parent {
+	height: 1280px;
+	background: #FFFFFF;
+	font-family: Helvetica;
+
+	.info {
+	    height: 300px;
+	    padding: 35px;
+	    text-align: left;
+
+	    h3 {
+	        display: inline-block;
+	        letter-spacing: 5px;
+	    }
+
+	    p {	
+	        line-height: 125%;
+	    }
+	}
+}
+
+.footer-body {
+	height: 70px;
+	background: black;
+	text-align: center;
+	font-family: arial;
+	color: #8A8A8A;
+	font-size: 17px;
+	padding: 13px;
+
+	p {
+
+	}
+}
 
 
 
