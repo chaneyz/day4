@@ -338,4 +338,13 @@ body {
   .footer-body a {
     color: #D8D8D8; }
 
+@media (min-width: 478px) {
+  .top-hero-image {
+    height: 400px; }
+
+  .top-hero-image-copy {
+    padding-top: 148px;
+    font-size: 48px;
+    line-height: 120%; } }
+
 /*# sourceMappingURL=style.css.map */

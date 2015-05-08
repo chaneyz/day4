@@ -447,13 +447,43 @@ body {
 	}
 }
 
+@media (min-width: 478px) {
+	.top-hero-image {
+		height: 400px;
+	}
+
+	.top-hero-image-copy {
+		padding-top: 148px;
+		font-size: 48px;
+		line-height: 120%;
+	}
+}
 
 
 
 
 
 
+// .top-hero-image {
+// 	height: 199px;
+// 	background-image: url(../img/background.jpg);
+// 	/*background-size: cover;*/
+// }
 
+// .top-hero-image-copy {
+// 	text-align: center;
+// 	font-size: 32px;
+// 	font-family: sans-serif;
+// 	color: white;
+// 	text-shadow: 1px 1px 0 #2D3F3A;
+// 	line-height: 123%;
+// 	margin: 0 auto;
+// 	padding-top: 63px;
+
+// 	p {
+
+// 	}
+// }
 
 
 
