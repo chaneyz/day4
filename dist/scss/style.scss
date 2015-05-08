@@ -1,10 +1,12 @@
 $top-nav-text-color: #7C7C7C;
 $top-hero-ad-copy-color: #FEFEFE;
 $tier-features-copy-color: #3D4E54;
+$footer-links: #D8D8D8;
 
 
 body {
-	background: #FFFFFF
+	background: #FFFFFF;
+	padding: 15px;
 }
 
 .header-nav {
@@ -13,9 +15,9 @@ body {
 	padding: 10px;
 
 	span {
-	font-size: 16px;
-	margin-left: 32px;
-	font-family: sans-serif;
+		font-size: 16px;
+		margin-left: 26px;
+		font-family: sans-serif;
 	}
 }
 
@@ -25,10 +27,8 @@ body {
 
 .top-hero-image {
 	height: 199px;
-	max-width: 478px;
 	background-image: url(../img/background.jpg);
 	/*background-size: cover;*/
-	padding-top: 1px;
 }
 
 .top-hero-image-copy {
@@ -36,9 +36,14 @@ body {
 	font-size: 32px;
 	font-family: sans-serif;
 	color: white;
-	margin-top: 60px;
 	text-shadow: 1px 1px 0 #2D3F3A;
-	line-height: 0;
+	line-height: 123%;
+	margin: 0 auto;
+	padding-top: 63px;
+
+	p {
+
+	}
 }
 
 .top-tier-bar {
@@ -47,7 +52,7 @@ body {
 }
 
 .personal-ad {
-	height: 195px;
+	height: 189px;
 	background: #539153;
 	padding: 15px;
 	
@@ -55,6 +60,8 @@ body {
 		color: $top-hero-ad-copy-color;
 		text-align: center;
 		font-family: arial;
+		height: 188px;
+		padding: 20px;
 	
 		.personal-ad-copy-p1 {
 			letter-spacing: 3px;
@@ -166,7 +173,7 @@ body {
 }
 
 .small-business-ad {
-	height: 195px;
+	height: 189px;
 	background: #2C4985;
 	padding: 15px;
 	
@@ -174,6 +181,8 @@ body {
 		color: $top-hero-ad-copy-color;
 		text-align: center;
 		font-family: arial;
+		height: 188;
+		padding: 20px;
 	
 		.small-business-ad-copy-p1 {
 			letter-spacing: 3px;
@@ -285,7 +294,7 @@ body {
 }
 
 .enterprise-ad {
-	height: 195px;
+	height: 189px;
 	background: #101010;
 	padding: 15px;
 	
@@ -293,6 +302,8 @@ body {
 		color: $top-hero-ad-copy-color;
 		text-align: center;
 		font-family: arial;
+		height: 188px;
+		padding: 20px;
 	
 		.enterprise-ad-copy-p1 {
 			letter-spacing: 3px;
@@ -399,13 +410,11 @@ body {
 }
 
 .info-parent {
-	// height: 1280px;
 	background: #FFFFFF;
 	font-family: Helvetica;
 
 	.info {
-	    // height: 300px;
-	    padding: 35px 35px 0px 35px;
+	    padding: 25px;
 	    text-align: left;
 
 	    h3 {
@@ -414,22 +423,27 @@ body {
 	    }
 
 	    p {	
-	        line-height: 125%;
+	        line-height: 150%;
 	    }
 	}
 }
 
 .footer-body {
-	height: 70px;
+	height: 63px;
 	background: black;
 	text-align: center;
 	font-family: arial;
 	color: #8A8A8A;
 	font-size: 17px;
-	padding: 13px;
+	padding: 20px;
+	line-height: 160%;
 
 	p {
 
+	}
+
+	a {
+		color: $footer-links;
 	}
 }
 
