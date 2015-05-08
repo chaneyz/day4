@@ -37,6 +37,8 @@ body {
 	font-family: sans-serif;
 	color: white;
 	margin-top: 60px;
+	text-shadow: 1px 1px 0 #2D3F3A;
+	line-height: 0;
 }
 
 .top-tier-bar {
@@ -60,8 +62,13 @@ body {
 
 		.personal-ad-copy-p2 {
 			height: 110px;
-			font-size: 110px;
+			font-size: 100px;
 			margin: 0 auto;
+		}
+
+		.personal-ad-copy-p3 {
+			color: #AAC8AA;
+			font-size: 20px;
 		}
 	}	
 }
@@ -160,7 +167,7 @@ body {
 
 .small-business-ad {
 	height: 195px;
-	background: #539153;
+	background: #2C4985;
 	padding: 15px;
 	
 	.small-business-ad-copy {
@@ -174,8 +181,13 @@ body {
 
 		.small-business-ad-copy-p2 {
 			height: 110px;
-			font-size: 110px;
+			font-size: 100px;
 			margin: 0 auto;
+		}
+
+		.personal-ad-copy-p3 {
+			color: #98A6C2;
+			font-size: 20px;
 		}
 	}	
 }
@@ -274,7 +286,7 @@ body {
 
 .enterprise-ad {
 	height: 195px;
-	background: #539153;
+	background: #101010;
 	padding: 15px;
 	
 	.enterprise-ad-copy {
@@ -288,8 +300,13 @@ body {
 
 		.enterprise-ad-copy-p2 {
 			height: 110px;
-			font-size: 110px;
+			font-size: 100px;
 			margin: 0 auto;
+		}
+
+		.personal-ad-copy-p3 {
+			color: #848484;
+			font-size: 20px;
 		}
 	}	
 }
@@ -382,13 +399,13 @@ body {
 }
 
 .info-parent {
-	height: 1280px;
+	// height: 1280px;
 	background: #FFFFFF;
 	font-family: Helvetica;
 
 	.info {
-	    height: 300px;
-	    padding: 35px;
+	    // height: 300px;
+	    padding: 35px 35px 0px 35px;
 	    text-align: left;
 
 	    h3 {
