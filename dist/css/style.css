@@ -97,4 +97,24 @@ body {
     text-align: center;
     line-height: 45px; }
 
+.personal-tier-choose {
+  height: 11px;
+  background: #FFFFFF;
+  border: 1px solid #E8E8E8;
+  padding-top: 24px;
+  padding-bottom: 48px; }
+  .personal-tier-choose .personal-choose-button {
+    height: 25px;
+    width: 100px;
+    text-align: center;
+    border-radius: 20px;
+    border: 2px solid #E8E8E8;
+    margin: 0 auto;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 10px; }
+
 /*# sourceMappingURL=style.css.map */
