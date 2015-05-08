@@ -1,6 +1,5 @@
 body {
-  background: #FFFFFF;
-  padding: 15px; }
+  background: #FFFFFF; }
 
 .header-nav {
   height: 14px;
@@ -308,15 +307,13 @@ body {
 
 .info-parent {
   background: #FFFFFF;
-  font-family: Helvetica; }
-  .info-parent .info {
-    padding: 25px;
-    text-align: left; }
-    .info-parent .info h3 {
-      display: inline-block;
-      letter-spacing: 5px; }
-    .info-parent .info p {
-      line-height: 150%; }
+  font-family: Helvetica;
+  padding: 25px; }
+  .info-parent .info h3 {
+    display: inline-block;
+    letter-spacing: 5px; }
+  .info-parent .info p {
+    line-height: 150%; }
 
 .footer-body {
   height: 63px;
@@ -354,12 +351,10 @@ body {
     margin-left: 15px;
     width: 30%; }
 
-  .info-get-started {
+  .info-item {
     display: inline-block;
-    width: 48%; }
-
-  .info-pay {
-    display: inline-block;
-    width: 48%; } }
+    width: 40%;
+    vertical-align: top;
+    margin-left: 20px; } }
 
 /*# sourceMappingURL=style.css.map */

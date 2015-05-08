@@ -6,7 +6,6 @@ $footer-links: #D8D8D8;
 
 body {
 	background: #FFFFFF;
-	padding: 15px;
 }
 
 .header-nav {
@@ -408,10 +407,11 @@ body {
 .info-parent {
 	background: #FFFFFF;
 	font-family: Helvetica;
+	padding: 25px;
 
 	.info {
-	    padding: 25px;
-	    text-align: left;
+	    .info-item {
+	    }
 
 	    h3 {
 	        display: inline-block;
@@ -456,10 +456,6 @@ body {
 }
 
 @media (min-width: 767px) {
-	// .pricing-tiers {
-	// 	height: 750px;
-	// }
-
 	.personal-pricing {
 		display: inline-block;
 		width: 30%;
@@ -478,14 +474,11 @@ body {
 		width: 30%;
 	}
 
-	.info-get-started {
+	.info-item {
 		display: inline-block;
-		width: 48%;
-	}
-
-	.info-pay {
-		display: inline-block;
-		width: 48%;
+		width: 40%;
+		vertical-align: top;
+		margin-left: 20px;
 	}
 }
 
