@@ -346,5 +346,38 @@ body {
     padding-top: 148px;
     font-size: 48px;
     line-height: 120%; } }
+@media (min-width: 767px) {
+  .personal-ad {
+    width: 210px;
+    margin: 0; }
+
+  .personal-tier {
+    width: 240px;
+    margin: 0; }
+
+  .personal-tier-choose {
+    width: 238px; }
+
+  .small-business-ad {
+    width: 210px;
+    margin: 0; }
+
+  .small-business-tier {
+    width: 240px;
+    margin: 0; }
+
+  .small-business-tier-choose {
+    width: 238px; }
+
+  .enterprise-ad {
+    width: 210px;
+    margin: 0; }
+
+  .enterprise-tier {
+    width: 240px;
+    margin: 0; }
+
+  .enterprise-tier-choose {
+    width: 238px; } }
 
 /*# sourceMappingURL=style.css.map */
