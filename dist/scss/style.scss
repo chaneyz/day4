@@ -411,6 +411,7 @@ body {
 
 	.info {
 	    .info-item {
+
 	    }
 
 	    h3 {
@@ -474,11 +475,16 @@ body {
 		width: 30%;
 	}
 
+	.info-parent {
+		padding: 0;
+	}
+
 	.info-item {
 		display: inline-block;
-		width: 40%;
+		width: 43%;
 		vertical-align: top;
-		margin-left: 20px;
+		margin-left: 44px;
+		padding-bottom: 25px;
 	}
 }
 
