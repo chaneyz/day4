@@ -45,9 +45,14 @@ body {
 	}
 }
 
-.top-tier-bar {
+/*.top-tier-bar {
 	height: 50px;
 	background-color: #FFFFFF;
+}*/
+
+.pricing-tiers {
+	padding-top: 50px;
+	padding-left: 20px;
 }
 
 .personal-ad {
@@ -95,7 +100,6 @@ body {
 		height: 45px;
 		text-align: center;
 		line-height: 45px;
-
 	}
 	.personal-feature2 {
 		border: 1px solid #E8E8E8;
@@ -291,7 +295,8 @@ body {
 .enterprise-ad {
 	height: 189px;
 	background: #101010;
-	padding: 15px;
+	padding-top: 15px;
+	padding-bottom: 15px;
 	
 	.enterprise-ad-copy {
 		color: $top-hero-ad-copy-color;
@@ -407,9 +412,13 @@ body {
 .info-parent {
 	background: #FFFFFF;
 	font-family: Helvetica;
-	padding: 25px;
+	padding: 50px 25px 25px 25px;
 
 	.info {
+	    .info-get-started {
+	    	padding-right: 15px;
+	    }
+
 	    .info-item {
 
 	    }
@@ -476,7 +485,7 @@ body {
 	}
 
 	.info-parent {
-		padding: 0;
+		padding: 50px 0 0 0;
 	}
 
 	.info-item {
@@ -488,22 +497,19 @@ body {
 	}
 }
 
-@media (min-width: 979) {
-	.personal-pricing {
+@media (min-width: 979px) {
+	 .top-hero-image {
 		width: 980px;
 	}
 
-	.sb-pricing {
+	.pricing-tiers {
 		width: 980px;
 	}
 
-	.enterprise-pricing {
+	.info {
 		width: 980px;
 	}
 
-	.info-item {
-		width: 980px;
-	}
 }
 
 

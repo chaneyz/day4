@@ -28,9 +28,13 @@ body {
   margin: 0 auto;
   padding-top: 63px; }
 
-.top-tier-bar {
-  height: 50px;
-  background-color: #FFFFFF; }
+/*.top-tier-bar {
+	height: 50px;
+	background-color: #FFFFFF;
+}*/
+.pricing-tiers {
+  padding-top: 50px;
+  padding-left: 20px; }
 
 .personal-ad {
   height: 189px;
@@ -217,7 +221,8 @@ body {
 .enterprise-ad {
   height: 189px;
   background: #101010;
-  padding: 15px; }
+  padding-top: 15px;
+  padding-bottom: 15px; }
   .enterprise-ad .enterprise-ad-copy {
     color: #FEFEFE;
     text-align: center;
@@ -308,7 +313,9 @@ body {
 .info-parent {
   background: #FFFFFF;
   font-family: Helvetica;
-  padding: 25px; }
+  padding: 50px 25px 25px 25px; }
+  .info-parent .info .info-get-started {
+    padding-right: 15px; }
   .info-parent .info h3 {
     display: inline-block;
     letter-spacing: 5px; }
@@ -352,7 +359,7 @@ body {
     width: 30%; }
 
   .info-parent {
-    padding: 0; }
+    padding: 50px 0 0 0; }
 
   .info-item {
     display: inline-block;
@@ -360,17 +367,14 @@ body {
     vertical-align: top;
     margin-left: 44px;
     padding-bottom: 25px; } }
-@media (min-width: 979) {
-  .personal-pricing {
+@media (min-width: 979px) {
+  .top-hero-image {
     width: 980px; }
 
-  .sb-pricing {
+  .pricing-tiers {
     width: 980px; }
 
-  .enterprise-pricing {
-    width: 980px; }
-
-  .info-item {
+  .info {
     width: 980px; } }
 
 /*# sourceMappingURL=style.css.map */
