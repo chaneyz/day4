@@ -362,15 +362,15 @@ body {
     padding-bottom: 25px; } }
 @media (min-width: 979) {
   .personal-pricing {
-    fixed-width: 980px; }
+    width: 980px; }
 
   .sb-pricing {
-    fixed-width: 980px; }
+    width: 980px; }
 
   .enterprise-pricing {
-    fixed-width: 980px; }
+    width: 980px; }
 
   .info-item {
-    fixed-width: 980px; } }
+    width: 980px; } }
 
 /*# sourceMappingURL=style.css.map */
