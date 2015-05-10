@@ -15,8 +15,7 @@ body {
 
 .top-hero-image {
   height: 199px;
-  background-image: url(../img/background.jpg);
-  /*background-size: cover;*/ }
+  background-image: url(../img/background.jpg); }
 
 .top-hero-image-copy {
   text-align: center;
@@ -29,8 +28,7 @@ body {
   padding-top: 63px; }
 
 .pricing-tiers {
-  padding-top: 50px;
-  padding-left: 20px; }
+  padding-top: 50px; }
 
 .personal-ad {
   height: 189px;
@@ -214,6 +212,9 @@ body {
     padding-bottom: 5px;
     margin-bottom: 10px; }
 
+.enterprise-pricing {
+  margin: 0; }
+
 .enterprise-ad {
   height: 189px;
   background: #101010;
@@ -316,7 +317,7 @@ body {
     line-height: 150%; }
 
 .footer-body {
-  height: 63px;
+  height: 60px;
   background: black;
   text-align: center;
   font-family: arial;
@@ -328,6 +329,10 @@ body {
     color: #D8D8D8; }
 
 @media (min-width: 478px) {
+  .footer-body {
+    height: 45px;
+    padding-top: 35px; }
+
   .top-hero-image {
     height: 400px; }
 
@@ -338,18 +343,18 @@ body {
 @media (min-width: 767px) {
   .personal-pricing {
     display: inline-block;
-    width: 30%;
+    width: 31%;
     margin: 0; }
 
   .sb-pricing {
     display: inline-block;
     margin-left: 15px;
-    width: 30%; }
+    width: 31%; }
 
   .enterprise-pricing {
     display: inline-block;
     margin-left: 15px;
-    width: 30%; }
+    width: 31%; }
 
   .info-parent {
     padding: 0;
@@ -365,8 +370,22 @@ body {
     vertical-align: top;
     margin-left: 44px;
     padding-bottom: 25px; } }
-@media (min-width: 979) {
+@media (min-width: 979px) {
+  .top-hero-image-copy {
+    max-width: 980px; }
+
+  .pricing-tiers {
+    max-width: 980px;
+    margin-left: 150px;
+    margin-right: 150px; }
+
   .info {
-    max-width: 980px; } }
+    max-width: 980px;
+    margin-left: 150px;
+    margin-right: 150px; }
+
+  .footer-body p {
+    max-width: 980px;
+    margin-left: 135px; } }
 
 /*# sourceMappingURL=style.css.map */

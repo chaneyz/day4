@@ -27,7 +27,6 @@ body {
 .top-hero-image {
 	height: 199px;
 	background-image: url(../img/background.jpg);
-	/*background-size: cover;*/
 }
 
 .top-hero-image-copy {
@@ -45,14 +44,8 @@ body {
 	}
 }
 
-// .top-tier-bar {
-// 	height: 50px;
-// 	background-color: #FFFFFF;
-// }
-
 .pricing-tiers {
     padding-top: 50px;
-    padding-left: 20px; 
 }
 
 .personal-ad {
@@ -291,6 +284,7 @@ body {
 }
 
 .enterprise-pricing {
+	margin: 0;
 }
 
 .enterprise-ad {
@@ -431,7 +425,7 @@ body {
 }
 
 .footer-body {
-	height: 63px;
+	height: 60px;
 	background: black;
 	text-align: center;
 	font-family: arial;
@@ -450,6 +444,11 @@ body {
 }
 
 @media (min-width: 478px) {
+	.footer-body {
+		height: 45px;
+		padding-top: 35px;
+	}
+
 	.top-hero-image {
 		height: 400px;
 	}
@@ -462,26 +461,22 @@ body {
 }
 
 @media (min-width: 767px) {
-	.pricing-tiers: {
-
-	}
-
 	.personal-pricing {
 		display: inline-block;
-		width: 30%;
+		width: 31%;
 		margin: 0;
 	}
 
 	.sb-pricing {
 		display: inline-block;
 		margin-left: 15px;
-		width: 30%;
+		width: 31%;
 	}
 
 	.enterprise-pricing {
 		display: inline-block;
 		margin-left: 15px;
-		width: 30%;
+		width: 31%;
 	}
 
 	.info-parent {
@@ -503,8 +498,32 @@ body {
 	}
 }
 
-@media (min-width: 979) {
-	.info {
+@media (min-width: 979px) {
+	.top-hero-image-copy {
 		max-width: 980px;
 	}
+
+	.pricing-tiers {
+		max-width: 980px;
+		margin-left: 150px;
+		margin-right: 150px;
+	}
+
+	.info {
+		max-width: 980px;
+		margin-left: 150px;
+		margin-right: 150px;
+	}
+
+	.footer-body p {
+		max-width: 980px;
+		margin-left: 135px;
+	}
 }
+
+
+
+
+
+
+
