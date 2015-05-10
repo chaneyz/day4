@@ -462,6 +462,10 @@ body {
 }
 
 @media (min-width: 767px) {
+	.pricing-tiers: {
+
+	}
+
 	.personal-pricing {
 		display: inline-block;
 		width: 30%;
@@ -481,7 +485,13 @@ body {
 	}
 
 	.info-parent {
-		padding: 50px 0 0 0;
+		padding: 0;
+		padding-top: 50px;
+	}
+
+	.info {
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 	.info-item {
@@ -494,19 +504,7 @@ body {
 }
 
 @media (min-width: 979) {
-	.personal-pricing {
-		fixed-width: 980px;
-	}
-
-	.sb-pricing {
-		fixed-width: 980px;
-	}
-
-	.enterprise-pricing {
-		fixed-width: 980px;
-	}
-
-	.info-item {
-		fixed-width: 980px;
+	.info {
+		max-width: 980px;
 	}
 }
